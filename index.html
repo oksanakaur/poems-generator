@@ -1,45 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
-    <title> AI Poem Generator</title>
-</head>
-<body>
-    <header>
-    <h1>AI Poem generator</h1>
-    </header>
+    <title>AI Poem Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Poem Generator</h1>
+      </header>
 
-    <main>
+      <main>
         <form>
-            <input type="text" placeholder="Enter the topic of the poem" 
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
             autofocus
             required
             autocomplete="off"
-             />
-            <input type="submit" />
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
         </form>
-        <div>
-            I was always afraid of the next card
-            <br />
-            the psychic would turn over for us
+        <div class="poem">
+          I was always afraid of the next card
+          <br />
+          the psychic would turn over for us
         </div>
+      </main>
 
-    </main>
-
-
-<footer>
-    This AI project was coded by 
-    <a href="https://github.com/oksanakaur" target="_blank">Keolebogile Segoneco</a> and 
-    is
-    <a
-     href="https://github.com/oksanakaur/poems-generator" 
-     target="_blank"> open sourced on GitHub</a> and 
-     is hosted on
-     <a href="https://shecodes-aipoem-generator.netlify.app/" target="_blank">Netlify</a>
-    </footer>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/oksanakaur" target="_blank"
+          >Keolebogile Segoneco</a
+        >
+        and is
+        <a href="https://github.com/oksanakaur/poems-generator" target="_blank">
+          open sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://shecodes-aipoem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
-</body>
+  </body>
 </html>
